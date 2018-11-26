@@ -73,10 +73,10 @@ For example, to change the server port, watched file paths, and base directory f
 }
 ```
 
-You can also provide custom path to your base directory `--baseDir=` run time options:
+You can also provide custom path to your base directory `--baseDir=` and port `--port=` run time options:
 
 ```bash
-lite-server --baseDir="dist"
+lite-server --baseDir="dist" --port=8080
 ```
 
 A more complicated example with modifications to the server middleware can be done with a `bs-config.js` file, which requires the `module.exports = { ... };` syntax:
